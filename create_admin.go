@@ -30,10 +30,10 @@ func main() {
 	}
 	fmt.Println("Successfully connected to the database!")
 
-	// 创建管理员账号
-	email := "admin@example.com"
-	password := "admin123" // 请使用一个强密码，并妥善保管
-	name := "Super Admin"
+	// 管理员账号信息，自己填充
+	email := "******"      // 管理员的邮箱
+	password := "******"   // 请使用一个强密码，并妥善保管
+	name := "******"       //管理员的姓名
 
 	// 检查用户是否已存在
 	var existingUser struct {
