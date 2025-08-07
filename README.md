@@ -33,7 +33,7 @@ go mod download
 
    ```go
    // 数据库连接配置
-   dsn := "root:art123456@tcp(192.168.1.47:20000)/artplatform?charset=utf8mb4&parseTime=True&loc=Local"
+   dsn := "username:password@tcp(host:port)/database_name?charset=utf8mb4&parseTime=True&loc=Local"
    
    // 管理员账号信息，自己填充
    email := "******"      // 管理员的邮箱
@@ -53,14 +53,14 @@ go mod download
 
    ```
    Successfully connected to the database!
-   Admin user 'Super Admin' with email 'admin@example.com' has been successfully added.
+   Admin user 'Admin name' with email 'Admin email' has been successfully added.
    ```
 
    如果管理员账号已存在，将显示：
 
    ```
    Successfully connected to the database!
-   Admin user with email admin@example.com already exists. Skipping creation.
+   Admin user with email Admin email already exists. Skipping creation.
    ```
 
 ## 自定义配置
