@@ -35,10 +35,10 @@ go mod download
    // 数据库连接配置
    dsn := "root:art123456@tcp(192.168.1.47:20000)/artplatform?charset=utf8mb4&parseTime=True&loc=Local"
    
-   // 管理员账号信息
-   email := "admin@example.com"
-   password := "admin123" // 请使用一个强密码，并妥善保管
-   name := "Super Admin"
+   // 管理员账号信息，自己填充
+   email := "******"      // 管理员的邮箱
+   password := "******"   // 请使用一个强密码，并妥善保管
+   name := "******"       //管理员的姓名
    ```
 
    请务必修改为安全的密码！
