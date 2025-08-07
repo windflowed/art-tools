@@ -14,7 +14,7 @@ func main() {
 	// 数据库连接配置
 	// 请根据您的实际数据库配置进行修改
 	// 格式： "username:password@tcp(host:port)/database_name?charset=utf8mb4&parseTime=True&loc=Local"
-	dsn := "root:art123456@tcp(192.168.1.47:20000)/artplatform?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "username:password@tcp(host:port)/database_name?charset=utf8mb4&parseTime=True&loc=Local"
 
 	// 连接到数据库
 	db, err := sql.Open("mysql", dsn)
